@@ -11,6 +11,8 @@
 		3B32883B27EB222800D94607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32883A27EB222800D94607 /* ContentView.swift */; };
 		3B32883D27EB222900D94607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B32883C27EB222900D94607 /* Assets.xcassets */; };
 		3B32884027EB222900D94607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B32883F27EB222900D94607 /* Preview Assets.xcassets */; };
+		3B32884727EB324900D94607 /* DiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32884627EB324900D94607 /* DiceResult.swift */; };
+		3B32884927EB7DC700D94607 /* FileManager-DocumentDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32884827EB7DC700D94607 /* FileManager-DocumentDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3B32883A27EB222800D94607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B32883C27EB222900D94607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B32883F27EB222900D94607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B32884627EB324900D94607 /* DiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceResult.swift; sourceTree = "<group>"; };
+		3B32884827EB7DC700D94607 /* FileManager-DocumentDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3B32883827EB222800D94607 /* RollDiceApp.swift */,
 				3B32883A27EB222800D94607 /* ContentView.swift */,
+				3B32884827EB7DC700D94607 /* FileManager-DocumentDirectory.swift */,
+				3B32884627EB324900D94607 /* DiceResult.swift */,
 				3B32883C27EB222900D94607 /* Assets.xcassets */,
 				3B32883E27EB222900D94607 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B32883B27EB222800D94607 /* ContentView.swift in Sources */,
+				3B32884727EB324900D94607 /* DiceResult.swift in Sources */,
+				3B32884927EB7DC700D94607 /* FileManager-DocumentDirectory.swift in Sources */,
 				3B32883927EB222800D94607 /* RollDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
